@@ -1,7 +1,7 @@
 /*引入另一个css文件   css中的引入加@*/
 @import "./normalize.css";
 
-/*:root(伪类) -> 获取根元素 在这里就是html*/
+/*:root(伪类 单冒号为伪类  双冒号为伪元素) -> 获取根元素 在这里就是html*/
 :root {
   /* 定义变量 语法格式如下：*/
   --color-text: #666;
